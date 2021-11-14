@@ -7,4 +7,70 @@ body {
 	font-size: 14px;
 }
 
+.kontakty {
+	display: flex; /* seřazení jednotlivých kontaktů vedle sebe */
+	background-color: #e6e6e6; /* barva pozadí */
+	border-radius: 10px; /* oblé rohy vnějšího rámečku */
+}
+
+.box {
+	display: flex; /* vytvoření flex-boxu z jednotlivých kontaktů */
+	background-color: white;
+	width: 22%; /* šířka boxů jednotlivých kontaktů */
+	flex-direction: column; /* položky uvnitř boxu kontaktu (foto, jméno, popisek) jsou pod sebou */
+	align-items: center; /* vycentrování fota, jména a textu na střed; proč nezafungovalo justify-content: center;? */
+	padding: 2rem; /* definování okrajů uvnitř boxu */
+	border-radius: 10px; /* oblé rohy boxů */
+	flex-grow: 1; /* aby při změně velikosti displeje zůstaly boxy stále ve stejném poměru */
+	
+}
+.hanka {
+	margin: 2rem 1rem 2rem 2rem; /* oddělení jednotlivých boxů od sebe, užší mezery mezi nimi */
+	}
+
+.jana {
+	margin: 2rem 1rem 2rem 1rem;
+}
+
+.marketa {
+	margin: 2rem 1rem 2rem 1rem;
+}
+
+.monika {
+	margin: 2rem 2rem 2rem 1rem;
+}
+
+.foto-Hanka {
+	width: 150px; /* šířka obrázků */
+	border-radius: 50%; /* kruhový tvar fotek */
+}
+
+.foto-Jana {
+	width: 150px; /* šířka obrázků */
+	border-radius: 50%; /* kruhový tvar fotek */
+}
+
+.foto-Marketa {
+	width: 150px; /* šířka obrázků */
+	border-radius: 50%; /* kruhový tvar fotek */
+}
+
+.foto-Monika {
+	width: 150px; /* šířka obrázků */
+	border-radius: 50%; /* kruhový tvar fotek */
+}
+
+p {
+	text-align: center; /* text v odstavcích zarovnaný na střed */
+}
+
+.ikona {
+	width: 35px;
+}
+
+.ikony { /*samostatný flex box pro ikonky soc. sítí */
+	display: flex;
+	width: 150px;
+	justify-content: space-evenly;
+}
 /* ---------------------------------------------------- */
